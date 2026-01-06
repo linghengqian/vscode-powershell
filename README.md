@@ -21,6 +21,7 @@ Emacs and Vim).
 ## Available Features
 
 - [Syntax highlighting][]
+- Bundled [Tree-sitter](https://tree-sitter.github.io/tree-sitter/) grammar so VS Code for the Web and `vscode.dev` get basic PowerShell parsing without a local PowerShell install
 - Advanced built-in [code snippets][]
 - [IntelliSense][] for cmdlets and more
 - [Problems][] reported by [PowerShell Script Analyzer][]
