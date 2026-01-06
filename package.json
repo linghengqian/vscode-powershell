@@ -114,6 +114,15 @@
     ]
   },
   "contributes": {
+    "grammars": [
+      {
+        "language": "powershell",
+        "scopeName": "source.ps1",
+        "path": "./tree-sitter/powershell/tree-sitter-powershell.wasm",
+        "type": "tree-sitter",
+        "highlights": "./tree-sitter/powershell/queries/highlights.scm"
+      }
+    ],
     "breakpoints": [
       {
         "language": "powershell"
